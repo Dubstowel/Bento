@@ -11,9 +11,9 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Canaan',
 	imageBackground: false,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '95b1b55e1f69bda308c52a39e2148860', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '-27.563049',
+	defaultLongitude: '152.885834',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://youtube.com/',
 		},
 		{
 			id: '2',
-			name: 'Mail',
+			name: 'Gmail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'iCloud',
+			icon: 'cloud',
+			link: 'https://icloud.com',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Blackboard',
+			icon: 'presentation',
+			link: 'https://learn.uq.edu.au',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Outlook',
+			icon: 'at-sign',
+			link: 'https://outlook.office.com/mail',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'MyUQ',
+			icon: 'university',
+			link: 'https://my.uq.edu.au',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'brain',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Library',
+					link: 'https://www.library.uq.edu.au/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Open Science Framework',
+					link: 'https://osf.io/dashboard',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'RSS',
+					link: 'https://feedly.com/i/my',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'APA 7',
+					link: 'https://apastyle.apa.org/style-grammar-guidelines',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'wrench',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'ChatGPT',
+					link: 'https://chat.openai.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Warframe Wiki',
+					link: 'https://warframe.fandom.com/wiki/WARFRAME_Wiki',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'DIM',
+					link: 'https://beta.destinyitemmanager.com/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Scryfall',
+					link: 'https://scryfall.com/',
 				},
 			],
 		},
